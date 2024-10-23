@@ -1,7 +1,6 @@
 title: Docs Católicos
 description: Uma breve descrição do meu site.
-baseurl: "/docscatolicos-novo"
-url: "https://grupopadrepio1.github.io/docscatolicos-novo"  # Altere conforme necessário
-theme: my-theme  # Nome do seu tema
-
+baseurl: "/docscatolicos-novo"  # Este deve ser o nome do seu repositório
+url: "https://grupopadrepio1.github.io"  # Apenas a URL base do GitHub Pages
+theme: my-theme  # Certifique-se de que o tema esteja corretamente instalado e configurado
 locale: "pt-BR"  # Definindo o idioma para português do Brasil
