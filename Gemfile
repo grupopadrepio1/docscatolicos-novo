@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3" 
 
 # Se você criou um tema local, inclua-o aqui.
-gem "my-theme", path: "/home/jhonferper/Área de trabalho/my-theme"
+gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
 
 # Especifica a versão do Bundler, se necessário
 gem "bundler", "~> 2.5"
