@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<article>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date: "%d/%m/%Y" }}</p>  <!-- Data no formato dd/mm/aaaa -->
+    <div>
+        {{ content }}
+    </div>
+</article>

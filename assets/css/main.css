@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box; /* Inclui padding e bordas nas dimensões */
+  }
+  
+  body {
+    font-family: "Georgia", serif; /* Fonte clássica para leitura */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro para o fundo */
+    color: #4b3d26; /* Marrom suave para o texto */
+  }
+  
+  header {
+    width: 100%;
+    background-color: #e0f0ff; /* Azul claro para o cabeçalho */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 10px; /* Adiciona uma margem superior para o título */
+    margin-bottom: 10px; /* Ajuste conforme necessário */
+  }
+  
+  .main-content {
+    width: 60%; /* Largura padrão para desktop */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding-top: 20px; /* Adiciona espaço superior ao conteúdo principal */
+  }
+  
+  footer {
+    width: 100%;
+    height: 12vh; /* Usando viewport height para responsividade */
+    background-color: #e0f0ff; /* Azul claro para o cabeçalho e rodapé */
+    text-align: center;
+    padding: 10px 0; /* Adiciona um pouco de padding ao rodapé */
+    margin: 0; /* Remove margens indesejadas */
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #4b3d26; /* Marrom suave para os links */
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; /* Para interação visual */
+  }
+  
+  #menu-toggle {
+    display: none; /* Oculta o toggle por padrão */
+  }
+  
+  /* Estilos para dispositivos pequenos */
+  @media (max-width: 768px) {
+    nav ul {
+      display: none; /* Oculta o menu por padrão */
+      flex-direction: column; /* Altera a direção dos itens para coluna */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #e0f0ff; /* Fundo azul claro */
+      width: 100%; /* Largura total */
+    }
+  
+    nav ul.show {
+      display: flex; /* Mostra o menu ao ser ativado */
+    }
+  
+    #menu-toggle {
+      display: block; /* Mostra o toggle */
+      cursor: pointer; /* Indica que é clicável */
+    }
+  
+    .main-content {
+      width: 98%; /* Largura para dispositivos móveis */
+    }
+  }
+  
+  article {
+    max-width: 60vw; /* Largura máxima para facilitar a leitura, usando viewport width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para artigos */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+  }
+  
+  footer {
+    font-size: 0.9em; /* Tamanho menor para o rodapé */
+  }
+  

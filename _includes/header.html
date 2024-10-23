@@ -1,0 +1,25 @@
+<header>
+   
+    <nav>
+        <div id="menu-toggle">☰</div> <!-- Botão de toggle -->
+        <ul id="menu">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
+            <li><a href="{{ '/contato/' | relative_url }}">Contato</a></li>
+            <li><a href="{{ '/textos/' | relative_url }}">Textos</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Docs Católicos</h1>
+    </header>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('show');
+        });
+    </script>
+    
+
+
+</header>
