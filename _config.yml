@@ -1,6 +1,6 @@
 title: Docs Católicos
 description: Uma breve descrição do meu site.
-baseurl: ""
+baseurl: "/docscatolicos-novo"
 url: "http://localhost:4000"  # Altere conforme necessário
 theme: my-theme  # Nome do seu tema
 
